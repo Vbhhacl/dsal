@@ -1,21 +1,3 @@
-"""
-THIS CODE HAS BEEN TESTED AND IS FULLY OPERATIONAL.
-
-Problem Statement: To create ADT that implement the "set" concept.
-a. Add (newElement) -> Place a value into the set
-b. Remove (element) -> Remove the value
-c. Contains (element) -> Return true if element is in collection
-d. Size () -> Return number of values in collection
-Iterator () -> Return an iterator used to loop over collection
-e. Intersection of two sets
-f. Union of two sets
-g. Difference between two sets
-h. Subset 
-
-Code from DataStructuresAndAlgorithms (SPPU - Second Year - Computer Engineering - Content) repository on KSKA Git: https://git.kska.io/sppu-se-comp-content/DataStructuresAndAlgorithms/
-"""
-
-# BEGINNING OF CODE
 SetA = [] 
 SetB = []
 
@@ -174,4 +156,3 @@ while True:
 		break
 	else:
 		print("Please choose a valid option (0-9).")
-# END OF CODE
