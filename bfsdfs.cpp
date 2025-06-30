@@ -1,12 +1,3 @@
-/*
-THIS CODE HAS BEEN TESTED AND IS FULLY OPERATIONAL.
-
-Problem Statement: Represent a given graph using adjacency matrix/list to perform DFS and using adjacency list to perform BFS. Use the map of the area around the college as the graph. Identify the prominent land marks as nodes and perform DFS and BFS on that.
-
-Code from DataStructuresAndAlgorithms (SPPU - Second Year - Computer Engineering - Content) repository on KSKA Git: https://git.kska.io/sppu-se-comp-content/DataStructuresAndAlgorithms/
-*/
-
-// BEGINNING OF CODE
 #include<iostream>
 using namespace std;
 
@@ -248,4 +239,4 @@ int main()
     }
     return 0;
 }
-// END OF CODE
+
