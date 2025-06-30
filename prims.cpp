@@ -1,12 +1,4 @@
-/*
-THIS CODE HAS BEEN TESTED AND IS FULLY OPERATIONAL.
 
-Problem Statement: You have a business with several offices; you want to lease phone lines to connect them up with each other; and the phone company charges different amounts of money to connect different pairs of cities. You want a set of lines that connects all your offices with a minimum total cost. Solve the problem by suggesting appropriate data structures.
-
-Code from DataStructuresAndAlgorithms (SPPU - Second Year - Computer Engineering - Content) repository on KSKA Git: https://git.kska.io/sppu-se-comp-content/DataStructuresAndAlgorithms/
-*/
-
-// BEGINNING OF CODE
 #include <iostream>
 #include <vector>
 #include <cstdint>
@@ -137,35 +129,3 @@ int main() {
     g.display_mst();
     return 0;
 }
-// END OF CODE
-
-/*
-SAMPLE OUTPUT:
-
-Number of cities are (1-10):    3
-Enter city:
-1:      Paris
-Enter city:
-2:      Pune
-Enter city:
-3:      Nagar
-Number of city pairs are:       2
-City codes are:
-0 - Paris
-1 - Pune
-2 - Nagar
-Enter pair:
-1:      1
-2
-Enter cost between city Pune & city Nagar:  5
-Enter pair:
-2:      0
-1
-Enter cost between city Paris & city Pune:  10
-Enter beginning city:   Pune
-Most efficient network is:
-Paris to Pune of weight 10
-Pune to Nagar of weight 5
-
-The cost of network is: 15
-*/
